@@ -27,7 +27,7 @@
 
 ## 為什麼是 XScript
 
-當然是因為要挺自家公司的產品啊（喂）  
+當然是因為要挺自家公司的產品啊（喂）
 
 除此之外， XScript 的好處還有那些呢?
 
@@ -44,8 +44,8 @@
 
 另外今年還有報名另外兩個主題，有興趣歡迎訂閱
 
-- [從 ES 到 ESNext - 30 天輕鬆掌握 ECMAScript]()
-- [前端工程師不能不知道的生產力工具]()
+- [從 ES 到 ESNext - 30 天輕鬆掌握 ECMAScript](https://ithelp.ithome.com.tw/users/20110962/ironman/3303)
+- [前端工程師不能不知道的生產力工具](https://ithelp.ithome.com.tw/users/20110962/ironman/3327)
 
 因為一天要寫三篇，為了確保文章品質，如果趕不及，可能就會先暫時停更這裡ＱＱ  
 不過 YURI 還是會把這個系列完成喔!
