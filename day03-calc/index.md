@@ -70,7 +70,7 @@ Close - Close[1];
 終於踏出第一步囉！
 
 今天就到這邊  
-Happy trading ! 明天見囉 ![/images/emoticon/emoticon37.gif](/images/emoticon/emoticon37.gif)
+Happy trading ! 明天見囉 !
 
 ## 參考資源
 
