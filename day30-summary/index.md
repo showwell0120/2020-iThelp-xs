@@ -1,8 +1,3 @@
-[Day01]
-
-1. [各方勢力共襄盛舉的股票](http://www.xq.com.tw/videoteach//videoteach/%e5%90%84%e6%96%b9%e5%8b%a2%e5%8a%9b%e5%85%b1%e8%a5%84%e7%9b%9b%e8%88%89%e7%9a%84%e8%82%a1%e7%a5%a8/)
-2. [本業有轉機且法人進場的選股策略](http://www.xq.com.tw/videoteach//videoteach/%e6%9c%ac%e6%a5%ad%e6%9c%89%e8%bd%89%e6%a9%9f%e4%b8%94%e6%b3%95%e4%ba%ba%e9%80%b2%e5%a0%b4%e7%9a%84%e9%81%b8%e8%82%a1%e7%ad%96%e7%95%a5/)
-3. [預收款交易策略](http://www.xq.com.tw/videoteach//videoteach/%e9%a0%90%e6%94%b6%e6%ac%be%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5/)
 4. [目標價的算法之一： 獲利穩定公司的目標價](http://www.xq.com.tw/videoteach//videoteach/%e7%9b%ae%e6%a8%99%e5%83%b9%e7%9a%84%e7%ae%97%e6%b3%95%e4%b9%8b%e4%b8%80%ef%bc%9a-%e7%8d%b2%e5%88%a9%e7%a9%a9%e5%ae%9a%e5%85%ac%e5%8f%b8%e7%9a%84%e7%9b%ae%e6%a8%99%e5%83%b9/)
 5. [財報公佈後的轉機股大調查](http://www.xq.com.tw/videoteach//videoteach/%e8%b2%a1%e5%a0%b1%e5%85%ac%e4%bd%88%e5%be%8c%e7%9a%84%e8%bd%89%e6%a9%9f%e8%82%a1%e5%a4%a7%e8%aa%bf%e6%9f%a5/)
 6. [Fscore 的選股法](http://www.xq.com.tw/videoteach//videoteach/fscore%e7%9a%84%e9%81%b8%e8%82%a1%e6%b3%95/)
