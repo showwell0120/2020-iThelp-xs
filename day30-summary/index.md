@@ -1,5 +1,3 @@
-5. [財報公佈後的轉機股大調查](http://www.xq.com.tw/videoteach//videoteach/%e8%b2%a1%e5%a0%b1%e5%85%ac%e4%bd%88%e5%be%8c%e7%9a%84%e8%bd%89%e6%a9%9f%e8%82%a1%e5%a4%a7%e8%aa%bf%e6%9f%a5/)
-6. [Fscore 的選股法](http://www.xq.com.tw/videoteach//videoteach/fscore%e7%9a%84%e9%81%b8%e8%82%a1%e6%b3%95/)
 7. [超前佈署的法說會行情交易策略](http://www.xq.com.tw/videoteach//videoteach/%e8%b6%85%e5%89%8d%e4%bd%88%e7%bd%b2%e7%9a%84%e6%b3%95%e8%aa%aa%e6%9c%83%e8%a1%8c%e6%83%85%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5/)
 8. [找出主力買超而融券增加的股票](http://www.xq.com.tw/videoteach//videoteach/%e6%89%be%e5%87%ba%e4%b8%bb%e5%8a%9b%e8%b2%b7%e8%b6%85%e8%80%8c%e8%9e%8d%e5%88%b8%e5%a2%9e%e5%8a%a0%e7%9a%84%e8%82%a1%e7%a5%a8/)
 9. [如何掌握代操資金看上的股票](http://www.xq.com.tw/videoteach//videoteach/%e5%a6%82%e4%bd%95%e6%8e%8c%e6%8f%a1%e4%bb%a3%e6%93%8d%e8%b3%87%e9%87%91%e7%9c%8b%e4%b8%8a%e7%9a%84%e8%82%a1%e7%a5%a8/)
