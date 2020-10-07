@@ -1,5 +1,3 @@
-7. [超前佈署的法說會行情交易策略](http://www.xq.com.tw/videoteach//videoteach/%e8%b6%85%e5%89%8d%e4%bd%88%e7%bd%b2%e7%9a%84%e6%b3%95%e8%aa%aa%e6%9c%83%e8%a1%8c%e6%83%85%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5/)
-8. [找出主力買超而融券增加的股票](http://www.xq.com.tw/videoteach//videoteach/%e6%89%be%e5%87%ba%e4%b8%bb%e5%8a%9b%e8%b2%b7%e8%b6%85%e8%80%8c%e8%9e%8d%e5%88%b8%e5%a2%9e%e5%8a%a0%e7%9a%84%e8%82%a1%e7%a5%a8/)
 9. [如何掌握代操資金看上的股票](http://www.xq.com.tw/videoteach//videoteach/%e5%a6%82%e4%bd%95%e6%8e%8c%e6%8f%a1%e4%bb%a3%e6%93%8d%e8%b3%87%e9%87%91%e7%9c%8b%e4%b8%8a%e7%9a%84%e8%82%a1%e7%a5%a8/)
 10. [預估量暴增為出發點的短線操作平台](http://www.xq.com.tw/videoteach//videoteach/%e9%a0%90%e4%bc%b0%e9%87%8f%e6%9a%b4%e5%a2%9e%e7%82%ba%e5%87%ba%e7%99%bc%e9%bb%9e%e7%9a%84%e7%9f%ad%e7%b7%9a%e6%93%8d%e4%bd%9c%e5%b9%b3%e5%8f%b0/)
 11. [傳授看投信進出表時的技巧](http://www.xq.com.tw/videoteach//videoteach/%e5%82%b3%e6%8e%88%e7%9c%8b%e6%8a%95%e4%bf%a1%e9%80%b2%e5%87%ba%e8%a1%a8%e6%99%82%e7%9a%84%e6%8a%80%e5%b7%a7/)
