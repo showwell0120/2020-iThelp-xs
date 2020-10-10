@@ -8,22 +8,31 @@
 
 ## 重點整理
 
--
+- 根據自己的需求，設定 **過去 N 年** 和 **現金股利總和下限** 的參數輸入和預設
+- 以陣列的資料結構，透過 for 迴圈，存放過去 N 年中，每年的現金股利
+- 以`array_sum`加總每年的現金股利
+- 如果有超過總和下限的公司則觸發警示
 
 ## 程式碼
 
 ```javascript
-input:years(3,"最近N年");
-input:limit1(20,"現金股利合計下限");
-array:ValueArray[99](0);
-var:i(0);
-for i=1 to years begin
-valuearray[i]=GetField("現金股利","Y")[i-1];
-end;
-value2=array_sum(valuearray,1,years);
-//區間股利合計
-if value2>=limit1 then ret=1;
-outputfield(1,value2,1,"近幾年合計現金股利");
+input: years(3, "最近N年");
+input: limit1(20, "現金股利合計下限");
+var: i(0);
+
+array: ValueArray[99](0);
+
+for i = 1 to years
+  begin
+    ValueArray[i] = GetField("現金股利", "Y")[i - 1];
+  end;
+
+value2 = array_sum(ValueArray, 1, years);  // 區間股利合計
+
+
+if value2 >= limit1 then ret = 1;
+
+outputfield(1, value2, 1, "近幾年合計現金股利");
 ```
 
 ## 參考資源
