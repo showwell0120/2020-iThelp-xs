@@ -1,63 +1,40 @@
-# [Day28] 實戰 - 盤中資金流向
+# [Day28] 實戰 - 波段創新高
 
 ## 影片在這裡
 
-[![Yes](https://img.youtube.com/vi/c5E3_togC54/0.jpg)](https://www.youtube.com/watch?v=c5E3_togC54)
+[![Yes](https://img.youtube.com/vi/2us8MQp0nR0/0.jpg)](https://www.youtube.com/watch?v=2us8MQp0nR0)
 
-## 分類：`選股` `警示` `籌碼`
+## 分類：`選股` `波段`
 
 ## 重點整理
 
--
+- 目的: 大盤或景氣表現不好時，價格還能創新高。表示背後有特別的原因
+- 先找出符合以上描述的股票，再一檔一檔來研究。
+  1. 找出波段最高點的一天 - highestdate
+  2. highestdate 距離今天是幾根 K 棒
+  3. 取得 highestdate 的收盤價
+  4. 成交量超過 2000 張，且最近收盤價向上突破 highestdate 的收盤價，或是最近收盤價向上突破這段時間的最高價就觸發通知
 
 ## 程式碼
 
-盤中警示
+- `getbaroffset(日期)`: 依日期取得相對 K 棒位置
 
 ```javascript
-value1=q_CashDirect;
-value2=GetField("股本(億)","D")[1];
-value3=GetField("投信買賣超張數")[1];
-setbackbar(20);
-input:length(20);
-variable:up1(0);
-up1 = bollingerband(value1, Length, 2 );
-if
-value2>10 and value2<40
-and
- value1 crosses over up1
-and close>close[1]
-//量暴增而且股價上漲
-and close<close[1]*1.05
-//但漲幅沒有非常大
-and value3>200
-//投信前一日買超大於200張
-then ret=1;
-```
+input: highestdate(2020114), "請輸入波段最高點日期");
+value1 = getbaroffset(highestdate);
+value2 = close[value1];
 
-盤後選股
-
-```javascript
-value1=GetField("佔大盤成交量比","D");
-value2=GetField("股本(億)","D");
-value3=GetField("投信買賣超");
-setbackbar(20);
-input:length(20);
-variable:up1(0);
-up1 = bollingerband(value1, Length, 2 );
-if
-value2>10 and value2<40
-and
- value1 crosses over up1
-and close>close[1]
-//量暴增而且股價上漲
-and close<close[1]*1.05
-//但漲幅沒有非常大
-and value3>200
-//投信前一日買超大於200張
-then ret=1;
+if volume > 2000 then
+begin
+  if close cross over value2 or
+     close cross over highest(high[1], value1) then
+  ret=1;
+  outputfield(1, value2, 1, "前一波指數高點收盤價");
+  outputfield(2, value1, 0, "指數高點距今幾根bar");
+end;
 ```
 
 ## 參考資源
 
-- [盤中資金流向交易策略腳本](http://www.xq.com.tw/videoteach//videoteach/%e7%9b%a4%e4%b8%ad%e8%b3%87%e9%87%91%e6%b5%81%e5%90%91%e4%ba%a4%e6%98%93%e7%ad%96%e7%95%a5%e8%85%b3%e6%9c%ac/)
+- [如何挑選波段創新高的股票](http://www.xq.com.tw/videoteach//videoteach/%e5%a6%82%e4%bd%95%e6%8c%91%e9%81%b8%e6%b3%a2%e6%ae%b5%e5%89%b5%e6%96%b0%e9%ab%98%e7%9a%84%e8%82%a1%e7%a5%a8/)
+- [GetBarOffset - (內建函數)](https://xshelp.xq.com.tw/XSHelp/?HelpName=GetBarOffset&group=GENERALFUNC)
